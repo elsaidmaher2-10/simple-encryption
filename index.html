@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pro.css">
+    <title>Simple Encryption</title>
+</head>
+
+<body>
+    <div class="Encryptiontool">
+
+        <h1 class="heading">Simple Encryption</h1>
+
+        <label for="algorithmtype">Encryption Type:</label>
+        <br><br>
+        <select name="algorithmtype" id="algorithmtype">
+            <option value="caesar">Caesar Cipher</option>
+            <option value="mono">Monoalphabetic Cipher</option>
+            <option value="vigenere">Vigenère Cipher</option>
+            <option value="reverse">Reverse Cipher</option>
+        </select>
+
+        <p>text :</p>
+        <textarea id="inputText" placeholder="Enter text here"></textarea>
+
+        <br>
+        <label for="keyInput">key :</label>
+        <br><br>
+        <input type="text" id="keyInput" placeholder="shift number (e.g., 3)">
+
+        <div class="buttons">
+            <button id="encryptBtn">Encrypt</button>
+            <button class="Decrypt" id="decryptBtn">Decrypt</button>
+            <button class="clear-btn" id="clearBtn">Clear</button>
+        </div>
+
+        <p>Result :</p>
+        <textarea id="resultArea" class="Result" placeholder="Result will appear here"></textarea>
+
+        <p class="hint">
+            Caesar Cipher: A simple substitution cipher where each letter is shifted a fixed number of positions down
+            the alphabet
+        </p>
+
+    </div>
+
+    <script src="js.js"></script>
+
+    
+</body>
+
+</html>

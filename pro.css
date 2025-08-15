@@ -1,0 +1,90 @@
+body {
+    background-color: rgba(0, 0, 0, 0.85); 
+    font-family: Arial, sans-serif;
+    color: #ffffff; 
+    margin: 0;
+    padding: 0;
+}
+
+.Encryptiontool {
+    border-radius: 15px;
+    width: 900px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.95); 
+    padding: 20px;
+    color: #000000; 
+}
+
+.heading {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+label, p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+select, textarea, input {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid #000000;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.Result {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    height: 100px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+.clear-btn {
+    background-color: #dc2626; 
+    color: #ffffff;
+}
+
+.clear-btn:hover {
+    background-color: #b91c1c;
+}
+
+.hint {
+    border: solid 1px #000000;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #000000;
+}
